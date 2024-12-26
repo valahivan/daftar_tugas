@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Daftar Tugas</h1>
+        </header>
+        <form action="">
+            <div class="input-group">
+                <input type="text" autocomplete="off" autofocus id="taskInput" placeholder="Tambahkan Tugas">
+            </div>
+            <button type="button" onclick="addTugas()">Tambahkan</button>
+        </form>
+        <ul id="list"></ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
